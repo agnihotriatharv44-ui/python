@@ -1,0 +1,9 @@
+tup = (23,45,234,23,23,987,2345)          # tuples are immutable
+print(type(tup))
+print(tup[2])
+# tup[4] = 3                  # tuples cannot be changed
+# print(tup)
+
+print(tup.index(234))           # shows the index position of an object in the tuple
+print(tup.count(23))            # shows the number of times an object has appeared in the tuple
+
