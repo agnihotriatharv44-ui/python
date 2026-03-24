@@ -1,0 +1,6 @@
+set1 = {1,23,4,56,4}
+print(set1)
+print(len(set1))
+
+empty_set = set()           # empty set
+print(len(empty_set))
