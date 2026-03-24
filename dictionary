@@ -1,0 +1,39 @@
+rank = {
+    1 : "A",
+    2 : "B",
+    3 : "C",
+    4 : "D",
+    5 : [1,2,3,4,5],
+    6 : ("w", "w", "d")
+}
+print(rank)
+print(type(rank))
+print(rank[3])
+
+rank[1] = "OP"              # Changing value
+print(rank[1])
+
+rank["surname"] = "Agnihotri"       # Adding a new key and value
+print(rank["surname"])
+#nested lists
+rank = {
+    1 : "A",
+    2 : "B",
+    3 : "C",
+    4 : "D",
+    "subjects" : {
+        "phy" : 97,
+        "chem" : 95,
+        "maths" : 94
+    },
+    5 : [1,2,3,4,5],
+    6 : ("w", "w", "d")
+}
+
+print(rank["subjects"]["phy"])
+
+print(len(rank))            # no of keys in a dict
+print(rank.keys())          # prints all the keys
+print(rank.values())        # prints all the values
+rank.update({"city": "blr"})        # adds a key,value pair to a dict
+print(rank["city"])
