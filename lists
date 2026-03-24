@@ -1,0 +1,31 @@
+marks = [45,46,23,5566]
+print(marks)
+
+print(type(marks))
+
+print(marks[0+1])
+print(len(marks))
+print(marks[0:3])       # the element at 3 is not included
+
+marks.append(54)         # adds an element to the list. Also known as mutating the list
+print(marks)
+
+marks.sort()               # ascending order sorting
+print(marks)
+marks.sort(reverse = True)     # descending order sorting
+print(marks)
+alpha = ["a", "b", "c", "f", "fa","asgf", "awef","awef"]        # sorting according to dictionary if strings a given in a list
+alpha.sort()                    # reverse sorting can also be done by alpha.sort(reverse = True)
+print(alpha)
+
+marks.reverse()             # reverses a list
+print(marks)
+alpha.reverse()             # reverse dictionary sorting
+print(alpha)
+
+marks.insert(3, 0)      # inserts an element at a specific index position   (index,object)
+print(marks)
+marks.remove(0)             # removes the first occurance of a given object
+print(marks)
+marks.pop(3)                # removes the element at 3rd index position
+print(marks)
